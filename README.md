@@ -50,4 +50,25 @@ The holes in the design that recieve brass inserts are 3.9mm in diameter and var
 Most M3 Brass inserts will do that are between 4mm to 6mm in length. They may simply require more or less heat/pushing to set them in and some clean up in the form of a tap or knife to remove any plastic in the way of the threads. The important part is that they sit slightly below the surface they are located on and that a bolt, when screwed in, is perpendicular to said surface. Some common sense may need to be applied when choosing and installing inserts :p. All inserts should be tested before final assembly by test fitting a bolt and seeing if they pull out with reasonable force. If they do then they may need to be reset in the hole and possible have some additonal plastic melted into the hole or over the insert to hold it in place.
 
 ## Notes on Printing and Settings
-Notes on settings and files to follow
+For printing parts I use 3 seperate profiles, one for the case parts, one for the wrist rest parts and one for the knob. I will post screenshots and config bundles for use with the Prusa i3 Mk3s and Prusa Slic3r that I use however note that profiles will not necessarily transfer, even to the same model of printer. In general you should follow for the case printing:
+
+- PLA will provide good detail and adequate strength (Springs are also designed for PLA's stiffness)
+- 0.3mm first layer height (If not done for the case this is needed to ensure the layers add up to 1.5mm for the plate)
+- 0.2mm layer height for everything else
+- 5 Perimeters
+- 5 Top layers
+- 5 Bottom Laers
+- 35% Rectilinear Infill
+- Seems should be ALIGNED and I tend to paint them on areas of the models that wont be seen in normal use (in between case parts etc)
+- I use Slic3rs Monotonic infill for a better surface finish
+- Detect thin walls and compress traces down to one perimeter or gap fill is needed in some areas to avoid marks on the outside of the case. This is prevalent where the screw enters the front of the RHS case part for joining the cases.
+- Supports aren't required or recommended anywhere.
+- When printing PLA you need to experiment with the fan and temperature settings to ensure that minimal curling / warping will occur. The nature of the case makes is susceptible to warping at the corners. You may choose to add pads or a brim but this adds to cleanup and could alter the aesthetics of the design.
+
+For the Wrist Rests I reduce the bulk as it is not acoustically vital and saves on filament and print time:
+- Reduce bottom layers to 3
+- Reduce top layers to 4
+- Reduce perimeters to 3
+- Reduce infill to 15% (this is optional but can save filament)
+
+For the Knob I use a near identical profile to the case but just with 0.1mm layer heights to increase the quality of the feel.
