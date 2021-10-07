@@ -11,6 +11,8 @@ In setting out to design the V2 I had some improvements and additions I wanted t
 - Not require soldering
 - Be more accesible in general to people who come from either the MK or the 3DP community
 
+Any questions or for sales please contact me on Discord at Alfie#6783!
+
 The final/current version includes:
 
 - Hotswappable PCB with a rotary encoder and USB C
@@ -20,6 +22,22 @@ The final/current version includes:
 - Low profile design so can be used without the rest
 
 This GitHub repo will hopefully contain all the current and past STLs to print the case, plate and wrist rest as well as some DXFs that may be used to cut foam for between the plate and PCB if wanted.
+
+## Layout
+The layout is similar to the popular Alice layout with an inward angled alpha section at 8 degrees. In addition, there is a rotary encoder, 2 macro keys and an arrow clustered on the right of the board. Left ALT and Control are shifted left to allow the arrow cluster to sit more closely and reduce the boards footprint. A 1u right shift is adopted here and can be replaced with a spare upwards arrow. The board also has 2 B keys. Overall the layout tries to adopt the general and most available sizes for keycaps such as Tab, Capslock, Left Shift and Control and Windows key however the bottom row uses a 2.25 and 2.75 space/ backspace key and 1u Fn, Alt and Control.
+
+## Design of Case
+
+The case design is quite simple with the aim of being simple and embracing the way in which cases often are assembled. The design allows for the PCB to be dropped into the case  and attached to cantilevers using 2 M2 screws and then in order to ensure that the keycaps are nicely conformed to, two covers are screwed in from the front. One of these covers are central and bridges the PCB across the middle, hugging the keycaps on either half of the board. One of the covers is on the right and 'clips' into the case next to the arrows; it worms around the arrow keys and between the RHS of the board and the macro row on the right and finishes up around the rotary encoder. This cover is affixed using 3 screws, 2 above the rotary encoder and 1 above the arrows. Due to this design these 6 screws are on show and as such you may want to select the finish on them to match the case and the keycaps you choose.
+
+The case is made to be as small as possible without excessive borders in its attempt at an industrial yet functionally minimal design. The wrist rests hugs the front of the case with only a chamfer to seperate the two items. 
+
+The case has feet that are formed from rubber bumpons at the front and at the rear. If you want the board to sit at an angle then you can screw in some feet at the rear. Currently options are available to allow the case to sit at either 0 degrees, 3 degrees or 6 degrees.
+
+Under the PCB the case has integrated cantilevers that operate similarly to leaf springs found in other boards. 2 of the outer cantilevers have M2 brass inserts and are used to affix the pcb to the case while the remaining posts on the other cantilevers just have a 6mm foam pad that provides a more even and soft feel. Damping remains a function of the intrisic material properties of the cantilver and little to no vibrations or additional noises are observed. The user can choose to affix thicker or thinner foam or miss some post locations in order to alter the feel of the board to make it more or less stiff and introduce more flex if desired. 
+
+## Design of PCB
+The PCB uses an Atmega32u4, USB C with proper anchoring and an Alps EC11 Rotary Encoder footprint (not necessarily ALPs). The board is hotswappable and uses screw in stabilisers and rests on up to 12 mounting points.
 
 ## Availability and Cost
 
@@ -40,6 +58,7 @@ The hardware included when sold / needed to have a complete case is as follows a
 - 2 x M2 Washers (Optional but recommended)
 - 10 x M3 Brass Inserts (OD: 3.9-4.2mm | Len:4-6mm) (See Section)
 - 4/12 8mm Rubber Bumpons (Good to have more. At least 4/12 needed for case/wrist rest)
+- 10 x 6mm Foam Pads (2mm - 2.5mm thick)(For the posts/PCB interface. More are supplied)
 
 ## Notes on Brass Inserts
 The holes in the design that recieve brass inserts are 3.9mm in diameter and vary in length. The case was designed for brass inserts that were 4.1mm in length and meant to have holes that were 3.7mm to 4.0mm. For guidance these brass inserts measure as being 4.28mm at a maximum OD and 3.7mm at their smallest OD. They look like this:
@@ -72,3 +91,6 @@ For the Wrist Rests I reduce the bulk as it is not acoustically vital and saves 
 - Reduce infill to 15% (this is optional but can save filament)
 
 For the Knob I use a near identical profile to the case but just with 0.1mm layer heights to increase the quality of the feel.
+
+## Post Processing and other issues
+Depending on the encoder used and other variables related to the 3D printing of the encoder knob, the fitment may not be as desired (firmly attached to post but can be removed by hand). In order to fix this you can experiment with scaling the knob in small intervals (a 0.1mm to 0.2mm can be all the difference) or you can use a knife or hot metal object to slightly deform the internal hole of the knob to make it more or less firmly affixed.
