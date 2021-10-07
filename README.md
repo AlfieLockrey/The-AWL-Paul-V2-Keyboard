@@ -11,7 +11,7 @@ In setting out to design the V2 I had some improvements and additions I wanted t
 - Not require soldering
 - Be more accesible in general to people who come from either the MK or the 3DP community
 
-Any questions or for sales please contact me on Discord at Alfie#6783!
+Any questions or for sales please contact me on Discord at Alfie#6783! (don't forget the capital A)
 
 The final/current version includes:
 
@@ -60,6 +60,10 @@ The hardware included when sold / needed to have a complete case is as follows a
 - 4/12 8mm Rubber Bumpons (Good to have more. At least 4/12 needed for case/wrist rest)
 - 10 x 6mm Foam Pads (2mm - 2.5mm thick)(For the posts/PCB interface. More are supplied)
 
+Initially I sold the PCB with genuine Alps EC11 Rotary Encoders with the part number of ec11n1524402. These were quite expensive and difficult to source and as a result had a high cost of 7.80 per piece once delivered. Because of this and in order to reduce the price of the PCB, I sourced 'knock-off' encoders that are cheaper, and, upon testing so far, are no different in feel or performance. Despite this I can understand that you may wish to have a genuine Alps encoder and may be able to offer the PCB without the cheaper encoders attached. 
+
+I can also ship the boards (if available) without the encoders soldered to reduce the risk of damage to the board and also possibly the size and therefore cost of postage to some locations.
+
 ## Notes on Brass Inserts
 The holes in the design that recieve brass inserts are 3.9mm in diameter and vary in length. The case was designed for brass inserts that were 4.1mm in length and meant to have holes that were 3.7mm to 4.0mm. For guidance these brass inserts measure as being 4.28mm at a maximum OD and 3.7mm at their smallest OD. They look like this:
 
@@ -94,3 +98,9 @@ For the Knob I use a near identical profile to the case but just with 0.1mm laye
 
 ## Post Processing and other issues
 Depending on the encoder used and other variables related to the 3D printing of the encoder knob, the fitment may not be as desired (firmly attached to post but can be removed by hand). In order to fix this you can experiment with scaling the knob in small intervals (a 0.1mm to 0.2mm can be all the difference) or you can use a knife or hot metal object to slightly deform the internal hole of the knob to make it more or less firmly affixed.
+
+When printing the wrist rests they have been found to develop a taper - possibly due to the varying heat from heating beds from the top to bottom of them. Because of this, when magnetically attached they form an arch shape due to being thicker at the top than the bottom. In order to correct this and get the rests to sit flat on all the feet, some minor sanding is required to get a proper fitment.
+
+If cutting brims or generally cleaning up the parts, the filament/plastic may turn white or scar due to stress, for most plastics this can be corrected by quickly passing a flame over the corrected area - rremoving the discolouration and showing no signs of sanding, cutting or other deformation.
+
+Once again, if you have any questions or queries that haven't been discussed here or you think I should add then drop me a message on Discord at Alfie#6783. (don't forget the capital A)
