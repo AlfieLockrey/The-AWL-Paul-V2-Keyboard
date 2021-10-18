@@ -56,7 +56,8 @@ The hardware included when sold / needed to have a complete case is as follows a
 - 2 x M3x14 Cap Head screws (for joining 2 halves)
 - 2 x M2x5/6 Cap head screws (for pcb attachment)
 - 2 x M2 Washers (Optional but recommended)
-- 10 x M3 Brass Inserts (OD: 3.9-4.2mm | Len:4-6mm) (See Section)
+- 10 x M3 Brass Inserts (OD: 3.9-4.2mm | Len: 4-6mm) (See Section)
+- 2 x M2 Brass Inserts (OD: 3.2-3.4mm| Len: 3-3.9mm)
 - 4/12 8mm Rubber Bumpons (Good to have more. At least 4/12 needed for case/wrist rest)
 - 10 x 6mm Foam Pads (2mm - 2.5mm thick)(For the posts/PCB interface. More are supplied)
 
@@ -65,12 +66,16 @@ Initially I sold the PCB with genuine Alps EC11 Rotary Encoders with the part nu
 I can also ship the boards (if available) without the encoders soldered to reduce the risk of damage to the board and also possibly the size and therefore cost of postage to some locations.
 
 ## Notes on Brass Inserts
-The holes in the design that recieve brass inserts are 3.9mm in diameter and vary in length. The case was designed for brass inserts that were 4.1mm in length and meant to have holes that were 3.7mm to 4.0mm. For guidance these brass inserts measure as being 4.28mm at a maximum OD and 3.7mm at their smallest OD. They look like this:
+The holes in the design that recieve M3 brass inserts are 3.9mm in diameter and vary in length. The case was designed for brass inserts that were 4.1mm in length and meant to have holes that were 3.7mm to 4.0mm. For guidance these brass inserts measure as being 4.28mm at a maximum OD and 3.7mm at their smallest OD. They look like this:
 
 <img src="https://user-images.githubusercontent.com/47219621/136241462-da60718c-6437-4915-9537-aefa999eb399.jpg" width="281" height="208">
 
 
 Most M3 Brass inserts will do that are between 4mm to 6mm in length. They may simply require more or less heat/pushing to set them in and some clean up in the form of a tap or knife to remove any plastic in the way of the threads. The important part is that they sit slightly below the surface they are located on and that a bolt, when screwed in, is perpendicular to said surface. Some common sense may need to be applied when choosing and installing inserts :p. All inserts should be tested before final assembly by test fitting a bolt and seeing if they pull out with reasonable force. If they do then they may need to be reset in the hole and possible have some additonal plastic melted into the hole or over the insert to hold it in place.
+
+The holes for the M2 Brass Inserts are 3.3mm in diameter and 4mm deep and thus inserts need to be shorter than 4mm in length and at least 3.3mm in diameter.
+
+Incorrectly sized inserts could be used however some clever thinking may be required - you could modify the STLs to have bigger or smaller holes, you could drill the holes oversize or plastic could be added into the holes after printing and then redrilled.
 
 ## Notes on Printing and Settings
 For printing parts I use 3 seperate profiles, one for the case parts, one for the wrist rest parts and one for the knob. I will post screenshots and config bundles for use with the Prusa i3 Mk3s and Prusa Slic3r that I use however note that profiles will not necessarily transfer, even to the same model of printer. In general you should follow for the case printing:
